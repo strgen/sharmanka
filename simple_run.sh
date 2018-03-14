@@ -13,7 +13,7 @@ compile()
 		mkdir "$PWD/out"
 	fi
 
-	#compile recursive all files to current folder/out
+	#compile recursively all files to current folder/out
 	javac -d "$PWD/out" $(find "$1" -name '*.java');
 
 	#That part doesn't work now. There should be insterting main class 
