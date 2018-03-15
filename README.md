@@ -1,6 +1,6 @@
-![Sharmanka](docs/assets/sharmanka-logo.jpg | width=400)
+<a href="https://github.com/strgen/sharmanka"><img src="https://github.com/strgen/sharmanka/raw/master/docs/assets/sharmanka-logo.jpg" width="400" ></a>
 
-Compile Java sources in one command without any settings. Pure bash with no dependencies!
+Compile your Java sources in one command without setting up any build configuration. Pure bash with no dependencies!
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/1fdd45572c0343f5976764c5efc89da2)](https://www.codacy.com/app/vagiz.d/sharmanka?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=strgen/sharmanka&amp;utm_campaign=Badge_Grade)
 
