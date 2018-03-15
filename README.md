@@ -1,4 +1,4 @@
-![Sharmanka](docs/assets/sharmanka-logo.png)
+![Sharmanka](docs/assets/sharmanka-logo.jpg)
 
 Compile Java sources in one command without any settings. Pure bash with no dependencies!
 
