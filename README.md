@@ -21,6 +21,10 @@ Ever downloaded some Java sources that you wanted to **just run** to check what 
 ## Usage
 Sharmanka is a great tool for everyday usage. Yet, nobody knows how to use it, for its sheer power is still too inordinate to be possessed by simple folks. However, blessed he be, our glorious inalienable leader and prophet will soon spread the knowledge of `sharmanka` usage onto his congregation.
 
+<img src="https://image.ibb.co/no94nx/no_pisek.jpg" width="400">
+
+Until then with joy we carry on.
+
 ## Installation
 1. Download `simple_run.sh` file;
 2. Move it to `/usr/local/bin` under name `sharmanka`:
