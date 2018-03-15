@@ -10,7 +10,7 @@ Compile your Java sources in one command without setting up any build configurat
 * [Installation](#installation)
 
 ## Philosophy
-Ever downloaded some Java sources that you wanted to **just run** to se what it does, and instead spent your precious time on writing a custom build config for Ant or Gradle?
+Ever downloaded some Java sources that you wanted to **just run** to check what it does, and instead spent your precious time on writing a custom build config for Ant or Gradle?
 
 `sharmanka` is able to compile these sources and call the program's `static void main()` function for you using only a `javac` compiler and a business logic written in bash.
 
