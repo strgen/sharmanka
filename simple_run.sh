@@ -15,9 +15,12 @@ compile()
 
 main()
 {
-  local TEMP_PACKAGE_NAME=`grep -r -n -i --include="*.java" "static void main" .`
+  local TEMP_PACKAGE_NAME=`grep -r -n -i --include="*.java" "public\s\+static\s\+void\s\+main\s*(" .`
+  echo "TEMP_PACKAGE_NAME: $TEMP_PACKAGE_NAME"
+
   local PACKAGE_NAME=`echo ${TEMP_PACKAGE_NAME} | sed -E 's/^\.\/src\/(.+)\/[^\/]+\.java:[0-9]+: .+$/\1/' | tr "/" .`
-  echo $PACKAGE_NAME
+
+  echo "Package name: $PACKAGE_NAME"
   compile "$PWD/src" $PACKAGE_NAME
 }
 

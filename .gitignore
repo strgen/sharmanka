@@ -1,3 +1,4 @@
 out/
 .simple_run.sh.swp
+*.jar
 **/*.psd
